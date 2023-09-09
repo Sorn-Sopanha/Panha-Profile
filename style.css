@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+  font-family: Oswald;
+  background: rgb(227, 228, 213);
+}
+.navbar-expand-lg{
+  background: #dac6aa;
+  box-shadow:  rgb(175, 175, 163) 0px 8px 20px;
+}
+.active{
+color: #000;
+font-weight: bolder;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+#navbarNav{ 
+  /* display: flex; */
+  justify-content:right;
+  align-items:flex-end;
+  font-size: 18px;
+}
+#Profile img{
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: rgb(62, 61, 61) 0px 20px 30px -10px;
+  
+}
+#Profile .col-md-6{
+  display: flex;
+  justify-content:right;
+  align-items:flex-end;
+}
+#Profile img:hover{
+  width: 450px;
+  border-radius: 50%;
+  box-shadow: rgb(62, 61, 61) 0px 20px 30px -10px;
+}
+
+#Profile.btn{
+  border-radius: 5px;
+  text-emphasis: 5px;  
+}
+#Profile h1{
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+#Profile p{
+  line-height: 1.6rem;
+  opacity: 0.8;
+}
+#Profile h4,#Education h4,#Experience h4{
+  opacity: 0.8;
+  font-weight: bold;
+}
+#Profile .row{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+section{
+  margin: 6rem;
+}
+#aboutme p{
+  line-height: 1.6rem;
+  color: #0a0a0a8c;
+  text-align: justify;
+}
+#aboutme h4{
+  
+  opacity: 0.8;
+}
+#aboutme img{
+  width: 550px;
+  
+}
+.social-link{
+  margin-top: 2rem;
+  display: flex;
+}
+.link-list{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: .5rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+}
+.facebook:hover{
+  background-color: #1877f2;
+}
+.Instagram:hover{
+  background-color: #c32aa3;
+}
+.Telegram:hover{
+  background-color: #0088cc;
+}
+.Twitter:hover{
+  background-color: #55acee;
+}
+#Education h4{
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+#EDU{
+  margin-top: 2rem;
+}
+#Education p{
+  display: flex;
+  align-items:flex-end;
+  text-align: right;
+  justify-content: end;
+  font-weight: bold;
+  line-height: 0.6rem;
+  
+}
+#Experience p{
+  display: flex;
+  align-items:flex-start;
+  text-align: left;
+  justify-content: start;
+  font-weight: bold;
+}
+.education-major,ul{
+  opacity: 0.8;
+  
+}
+.grade{
+  opacity: 0.8;
+  
+}
+
+
+
+
+/* #left{
+  display:flex;
+  justify-content:right;
+  align-items:center;
+  margin-right: 50px;
+}
+#right{
+  display:flex;
+  justify-content:left;
+  align-items:center;
+} */
